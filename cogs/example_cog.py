@@ -5,8 +5,8 @@ class ExampleCog(commands.Cog):
         self.bot = bot
 
     @commands.command()
-    async def ping(self, ctx):
-        await ctx.send('Pong!')
+    async def ivan(self, ctx):
+        await ctx.send('Arrasou!')
 
 async def setup(bot):
     await bot.add_cog(ExampleCog(bot))

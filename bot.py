@@ -9,7 +9,8 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Carregar todos os Cogs
 initial_extensions = [
-    'cogs.example_cog'
+    'cogs.example_cog',
+    'cogs.youtube_cog'  # Adicione esta linha
 ]
 
 async def main():
